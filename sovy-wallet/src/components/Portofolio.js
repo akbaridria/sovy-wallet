@@ -5,12 +5,12 @@ import Transactions from "./Transactions";
 import Balance from "./Balance";
 
 
-const Portofolio = ({dataTok}) => {
+const Portofolio = ({dataTok, dataTransact}) => {
     return (
         <div className="portofolio">
             <div className="assets">
                 <Tokens dataT={dataTok} />
-                <Transactions />
+                <Transactions dataTransac={dataTransact} />
             </div>
         </div>
     )

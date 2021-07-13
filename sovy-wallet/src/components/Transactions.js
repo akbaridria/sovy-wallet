@@ -1,17 +1,16 @@
 import Transaction from "./Transaction"
 import "../App.css"
-const Transactions = () => {
+const Transactions = ({dataTransac}) => {
     return (
         <div className="Portofolio">
            <wired-card elevation="1">
-            <p>Your Transactions</p>
+            <p>Your Transactions ({dataTransac.length})</p>
             <div className="Tokens">
-            <Transaction />
-            <Transaction />
-            <Transaction />
-            <Transaction />
-            <Transaction />
-            <Transaction />
+                {
+                    dataTransac.map((val) => {
+                        return <Transaction dataTrans={val} />
+                    })
+                }
             </div>
             </wired-card>
         </div>

@@ -5,7 +5,7 @@ const Tokens = ({dataT}) => {
     return (
         <div className="Portofolio">
            <wired-card elevation="1">
-            <p>Your Tokens</p>
+            <p>Your Tokens  ({dataT.length})</p>
             <div className="Tokens">
                 {
                     dataT.map((val) => {

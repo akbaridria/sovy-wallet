@@ -13,7 +13,6 @@ const Token = ({data}) => {
                 <p style={{margin:0, padding:0, fontSize:12}}>{data.contract_name}</p>
                 <p style={{margin:0, padding:0, fontSize:10}}>{data.contract_ticker_symbol}</p>
                 </div>
-                
                 </div>
                 
                 

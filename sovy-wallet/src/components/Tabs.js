@@ -2,12 +2,12 @@ import { WiredTabs, WiredTab } from 'wired-elements-react';
 import "../App.css"
 import Portofolio from './Portofolio';
 
-const Tabs = ({dataTokens}) => {
+const Tabs = ({dataTokens, datatransactions}) => {
     return (
         <>
             <WiredTabs selected="Portofolio">
             <WiredTab name="Portofolio">
-            <Portofolio dataTok={dataTokens} />
+            <Portofolio dataTok={dataTokens} dataTransact={datatransactions} />
             </WiredTab>
             <wired-tab name="Three">
                 <h4>Card 3</h4>
