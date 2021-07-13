@@ -41,3 +41,65 @@ wired-tab {
   width : 800px;
   min-height:400px ;
 }
+
+.portofolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Portofolio wired-card {
+  width: 350px;
+  height: 400px;
+  
+
+}
+
+.Balance wired-card {
+  width: 300px;
+  text-align: center;
+}
+
+.Tokens {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 320px;
+}
+
+.Tokens wired-card {
+  width: 310px;
+  height: 60px;
+  margin : 5px;
+  
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.InsideToken {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Token wired-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ImageLogo {
+  display: flex;
+  flex-direction: row;
+}
