@@ -110,7 +110,7 @@ const Transaction = ({dataTrans}) => {
                    :
                </div>
                <div >
-                   {Number(dataTT.value_quote.toFixed(5)).toLocaleString()}
+                   {"$ " +Number(dataTT.value_quote.toFixed(5)).toLocaleString()}
                </div>
            </div>
            <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
@@ -121,7 +121,7 @@ const Transaction = ({dataTrans}) => {
                    :
                </div>
                <div >
-                   {Number(dataTT.gas_quote.toFixed(5)).toLocaleString()}
+                   {"$ " +Number(dataTT.gas_quote.toFixed(5)).toLocaleString()}
                </div>
            </div>
            <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>

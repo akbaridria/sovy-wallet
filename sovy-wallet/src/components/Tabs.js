@@ -1,7 +1,7 @@
 import { WiredTabs, WiredTab } from 'wired-elements-react';
 import "../App.css"
 import Portofolio from './Portofolio';
-
+import SovSwap from './SovSwap';
 const Tabs = ({dataTokens, datatransactions}) => {
     return (
         <>
@@ -9,13 +9,8 @@ const Tabs = ({dataTokens, datatransactions}) => {
             <WiredTab name="Portofolio">
             <Portofolio dataTok={dataTokens} dataTransact={datatransactions} />
             </WiredTab>
-            <wired-tab name="Three">
-                <h4>Card 3</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+            <wired-tab name="Sov-Swap">
+                <SovSwap />
             </wired-tab>
             </WiredTabs>
         </>

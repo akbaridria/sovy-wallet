@@ -12,7 +12,7 @@ const Header = ({sendData}) => {
                 <WiredCard elevation="3">
                     <div className="insideHeader">
                         <h3 style={{fontFamily:"inherit", margin:0, padding:0}}>Sovy-Wallet</h3>
-                        <p style={{fontFamily:"inherit", margin:0, padding:0, marginBottom:20}}>Powered <WiredLink href="https://www.covalenthq.com/" elevation="2" target="_blank" >@CovalentHQ</WiredLink></p>
+                        <p style={{fontFamily:"inherit", margin:0, padding:0, marginBottom:20}}>Powered By <WiredLink href="https://www.covalenthq.com/" elevation="2" target="_blank" >@CovalentHQ</WiredLink></p>
                         <WiredInput placeholder="Search here" onChange={(text) => {setWalletAddress(text.target.value)}} ></WiredInput> <WiredButton onClick={getData} >Get Data</WiredButton>
                     </div>
                 </WiredCard>
